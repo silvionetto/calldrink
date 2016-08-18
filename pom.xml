@@ -4,16 +4,37 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.calldrink</groupId>
     <artifactId>calldrink</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Call Drink</name>
     <description>Call drink web project</description>
 
+    <repositories>
+        <repository>
+            <id>jvnet-nexus-releases</id>
+            <name>jvnet-nexus-releases</name>
+            <url>https://maven.java.net/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
+        <!-- MySQL -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.39</version>
+        </dependency>
+        <!-- JSF -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.faces</artifactId>
+            <version>2.2.10</version>
         </dependency>
     </dependencies>
 
