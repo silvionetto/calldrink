@@ -3,7 +3,7 @@ Order your drink easily.
 
 ## Release Notes
 #### 1.0.1 - 19-08-2016
-. JSF 2.2 - Working
+. JSF 2.2 - Working  
 . I18n - Default language en
 
 # MySQL
