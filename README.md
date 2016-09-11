@@ -5,6 +5,8 @@ Order your drink easily.
 #### 1.0.1 - 19-08-2016
 . JSF 2.2 - Working  
 . I18n - Default language en
+#### 1.0.2 - 11-09-2016
+. Adding Managed Bean
 
 # MySQL
 ### Create Machine
