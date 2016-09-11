@@ -17,6 +17,8 @@ docker start mysql
 # Tomcat 8
 ### Create Machine
 docker run --name tomcat -p 8888:8080 -d tomcat:8.0  
+### Access Machine
+docker exec -it tomcat /bin/bash
 
 http://192.168.99.100:8888/
 
