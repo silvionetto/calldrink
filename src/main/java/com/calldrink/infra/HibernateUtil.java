@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 /**
  * Created by silvionetto on 9/11/16.
  */
-public class HIbernateUtil {
+public class HibernateUtil {
     private static final SessionFactory sessionFactory = buildSessionFactory();
 
     private static SessionFactory buildSessionFactory() {

@@ -39,7 +39,7 @@
         <property name="use_sql_comments">true</property>
 
         <!-- Hibernate -->
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create</property>
 
         <!-- Mapping Classes -->
         <mapping class="com.calldrink.entity.User"/>
